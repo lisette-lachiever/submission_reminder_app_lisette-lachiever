@@ -18,6 +18,6 @@ This will enable the program to begin providing reminders.
 
 Additional Information
 
-The setup script has made the startup script executable, so there is no need to change permissions.
+The create_environment script has made the startup script executable, so there is no need to change permissions.
 You can add more students now to the submissions list, if you want to.
 This program will function well in a shell environment that supports bash.
