@@ -74,8 +74,7 @@ EOF
 touch startup.sh
 cat << EOF > startup.sh
 #!/bin/bash
-chmod +x app/reminder.sh
-source ./app/reminder.sh
+bash app/reminder.sh
 EOF
 
-chmod +x startup.sh
+bash startup.sh
