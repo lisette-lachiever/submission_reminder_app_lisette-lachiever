@@ -18,16 +18,13 @@ You can obtain the project in two ways:
 * Click the **Fork** button on the top right of this repository’s GitHub page.
 * Clone your forked repository to your local machine:
 
-  ```bash
-  git clone https://github.com/{YourGitHubUsername}/submission-reminder-app.git
-  ```
 
 ### 2. Clone Directly
 
 If you do not need a fork, you can clone directly from the source repository:
 
 ```bash
-git clone https://github.com/{RepositoryOwnerUsername}/submission-reminder-app.git
+git clone https://github.com/lisette-lachiever/submission_reminder_app_lisette-lachiever.git
 ```
 
 Or download the ZIP file and extract it to your preferred location.
