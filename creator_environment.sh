@@ -70,10 +70,11 @@ ASSIGNMENT="Shell Navigation"
 DAYS_REMAINING=2
 
 EOF
-chmod +x *
+
 touch startup.sh
 cat << EOF > startup.sh
-
+#!/bin/bash
+chmod +x app/reminder.sh
 source ./app/reminder.sh
 EOF
 

@@ -1,23 +1,103 @@
-Submission Reminder App
 
-Introduction
+# Submission Reminder App
 
-The Submission Reminder App is a simple application built using Linux shell scripts. The goal of the app is to remind students of their assignment deadlines. To get the app ready, we create a shell script called create_environment.sh to automatically create all the folders and files the application will need to run smoothly.
+## Introduction
 
-Setup Instructions
+The **Submission Reminder App** is a simple application built using Linux shell scripts.
+It is designed to help students track their assignment deadlines and receive timely reminders.
+A setup script is included to create all necessary folders and files for the application to operate effectively.
 
-To begin, download (or clone) this project from GitHub to your computer.
-Next, run the script called create_environment.sh. When you run it, the script will prompt you for a name. The script will then generate a new folder called submission_reminder_{YourName}.
-Inside this folder, the program will put all the files and folders it needs to work. These folders are named as: app, modules, assets, and config.
+---
 
-Running the Application
+## Getting Started
 
-Once you are finished with the setup, go inside your new folder submission_reminder_{YourName}. In it, you should find a file called startup.sh.
-Run the startup.sh to start the Submission Reminder App.
-This will enable the program to begin providing reminders.
+You can obtain the project in two ways:
 
-Additional Information
+### 1. Fork the Repository
 
-The create_environment script has made the startup script executable, so there is no need to change permissions.
-You can add more students now to the submissions list, if you want to.
-This program will function well in a shell environment that supports bash.
+* Click the **Fork** button on the top right of this repository’s GitHub page.
+* Clone your forked repository to your local machine:
+
+  ```bash
+  git clone https://github.com/{YourGitHubUsername}/submission-reminder-app.git
+  ```
+
+### 2. Clone Directly
+
+If you do not need a fork, you can clone directly from the source repository:
+
+```bash
+git clone https://github.com/{RepositoryOwnerUsername}/submission-reminder-app.git
+```
+
+Or download the ZIP file and extract it to your preferred location.
+
+---
+
+## Setup Instructions
+
+1. Navigate to the directory where the project files are located.
+2. Run the setup script:
+
+   ```bash
+   bash create_environment.sh
+   ```
+3. When prompted, enter your name.
+   The script will create a new folder named:
+
+   ```
+   submission_reminder_{YourName}
+   ```
+4. Inside this folder, the following directories will be created automatically:
+
+   ```
+   app/
+   modules/
+   assets/
+   config/
+   ```
+
+---
+
+## Running the Application
+
+1. Navigate into your newly created folder:
+
+   ```bash
+   cd submission_reminder_{YourName}
+   ```
+2. Run the startup script:
+
+   ```bash
+   ./startup.sh
+   ```
+3. The application will begin providing assignment reminders.
+
+---
+
+## Additional Information
+
+* The setup script automatically sets the `startup.sh` file as executable; no manual permission changes are required.
+* You may add more students to the submissions list at any time.
+* The application requires a shell environment with Bash support.
+
+---
+
+## Project Structure
+
+```
+submission_reminder_{YourName}/
+├── app/
+├── modules/
+├── assets/
+├── config/
+└── startup.sh
+```
+
+---
+
+```
+Author
+Lisette Mukiza
+
+```
