@@ -101,8 +101,9 @@ submission_reminder_{YourName}/
 
 ---
 
+## Author
+
 ```
-Author
 Lisette Mukiza
 
 ```
