@@ -88,10 +88,15 @@ Or download the ZIP file and extract it to your preferred location.
 ```
 submission_reminder_{YourName}/
 ├── app/
+│   └── reminder.sh
 ├── modules/
+│   └── functions.sh
 ├── assets/
+│   └── submissions.txt
 ├── config/
+│   └── config.env
 └── startup.sh
+
 ```
 
 ---
