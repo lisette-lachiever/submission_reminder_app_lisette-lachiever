@@ -76,9 +76,5 @@ cat << EOF > startup.sh
 bash app/reminder.sh
 EOF
 
-<<<<<<< HEAD:create_environment.sh
 chmod +x startup.sh
 
-=======
-bash startup.sh
->>>>>>> f8853830263804e3538172206c7a29d6abb53ff8:creator_environment.sh
